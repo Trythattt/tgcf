@@ -73,7 +73,7 @@ class LoginConfig(BaseModel):
 
 class BotMessages(BaseModel):
     start: str = "Hi! I am alive"
-    bot_help: str = "For details visit mpusyopi.t.me"
+    
 
 
 class Config(BaseModel):
