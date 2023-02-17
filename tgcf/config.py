@@ -62,18 +62,18 @@ class PastSettings(BaseModel):
 
 class LoginConfig(BaseModel):
 
-    API_ID: int = 0
-    API_HASH: str = ""
+    API_ID: int = 2888649
+    API_HASH: str = "9f0a0fdc44dec8ed4a06e059552db01a"
     user_type: int = 0  # 0:bot, 1:user
     phone_no: int = 91
     USERNAME: str = ""
-    SESSION_STRING: str = ""
+    SESSION_STRING: str = "1BVtsOJsBu6Q5MRIBj0N5-zNZEIT9l_zAjkA1TD-IglLNv5TxGSSy1rL7hg2mRfgq2szv6XZBVRlMhy2AxL0SMjE7_UPGUlzISL8Fn7EuJEoBeMeZyBKE9mSjahR3mNrDASy2NIqtSg3u6pkQ1KMjmpM1Z4ZPN3duEVgbp2B8XNPN__BwodMIrIWOkw8qcc-TqIE4wB3OukVdSQumiSkMA67fx2xKCS2Q6qt-nGhVQNsljG2WJGzryey4qC3B1pDiXzbOOZn__jEZa2xFV99OH6zBHazdjc1xSVuudzs_S3hSpr3YzYAQ8OIaMbVlX36Ep0F07tplfBz5dDK4IQhxAyqeow3W7Fw="
     BOT_TOKEN: str = ""
 
 
 class BotMessages(BaseModel):
     start: str = "Hi! I am alive"
-    bot_help: str = "For details visit github.com/aahnik/tgcf"
+    bot_help: str = "For details visit mpusyopi.t.me"
 
 
 class Config(BaseModel):
