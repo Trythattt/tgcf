@@ -72,7 +72,7 @@ class LoginConfig(BaseModel):
 
 
 class BotMessages(BaseModel):
-    start: str = "Hi! I am alive"
+   
     
 
 
